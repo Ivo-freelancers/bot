@@ -166,7 +166,7 @@ header {
                 </div>
             </div>    
             <div class="chatbot-area">
-                <img src="https://github.com/Ivo-freelancers/chatbot/blob/main/chatbot.png?raw=true">
+                <img src="https://github.com/Ab-ra/Isaac-/blob/main/ivo%20logo%20removebg%20advanced.png?raw=true">
             </div>
         <button id="mic"><i class="flaticon-microphone"></i></button>
     </section>
@@ -202,7 +202,7 @@ function showchatbotmsg(chatbotmsg){
 
 function chatbotvoice(message){
     const speech = new SpeechSynthesisUtterance();
-    speech.text = "This is test message";
+  speech.text = "Welcome To Ivo Freelancers, A community of African freelancers. What servicers do you want from us. Website development ? website design or what ";
     if(message.includes('who are you')){
         let finalresult = intro[Math.floor(Math.random() * intro.length)];
         speech.text = finalresult;
